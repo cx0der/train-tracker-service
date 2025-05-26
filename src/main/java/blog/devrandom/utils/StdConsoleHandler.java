@@ -1,4 +1,4 @@
-package blog.devrandom;
+package blog.devrandom.utils;
 
 import java.io.OutputStream;
 import java.util.logging.ErrorManager;

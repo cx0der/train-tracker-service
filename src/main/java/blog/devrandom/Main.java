@@ -1,5 +1,7 @@
 package blog.devrandom;
 
+import blog.devrandom.utils.Utils;
+
 import java.util.logging.Logger;
 
 public class Main {
