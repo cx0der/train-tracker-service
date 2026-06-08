@@ -27,6 +27,7 @@ tasks.test {
 
 tasks {
     val fatJar = register<Jar>("fatJar") {
+        description = "Build Fat Jar"
         dependsOn.addAll(listOf("compileJava", "processResources"))
         duplicatesStrategy = DuplicatesStrategy.EXCLUDE
         manifest {
